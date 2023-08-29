@@ -1,0 +1,20 @@
+.TodoItem-check{
+  
+}
+.TodoItem-delete{
+  
+}
+.TodoItem-p--completed{
+    text-decoration: line-through;
+}
+
+.TodoItem-svg{
+  width: 22px;
+  height: 22px;
+}
+.TodoItem-check:hover .TodoItem-svg{
+    fill: green;
+}
+.TodoItem-delete:hover .TodoItem-svg{
+    fill: red;
+}

@@ -1,0 +1,44 @@
+.ItemLoading{
+    border-style: solid;
+    border-width: 2px;
+    height: 70px;
+    border-color: rgba(128, 128, 128, 0.342);
+    cursor: progress;
+    animation: skeleton-loading 0.5s linear infinite alternate;
+}
+.ItemLoading-CircleSpan{
+    border-radius: 14px;
+    width: 28px;
+    height: 28px;
+    background-color: rgba(128, 128, 128, 0.342);
+}
+.ItemLoading-LargeSpan{
+    height: 28px;
+    background-color: rgba(128, 128, 128, 0.342);
+    width: 50%;
+    left: 10%;
+}
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 80%);
+  }
+  100% {
+    background-color: hsl(203, 49%, 91%);
+  }
+}/*
+
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 80%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+
+*/

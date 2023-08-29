@@ -17,18 +17,3 @@ li {
   font-weight: 300;
   line-height: normal;
 }
-.TodoItem-check{
-  width: 25px;
-  height: 25px;
-}
-.TodoItem-delete{
-  width: 25px;
-  height: 25px;
-}
-
-.TodoItem-p--completed{
-    text-decoration: line-through;
-}
-.TodoItem-check--active{
-    background-color: aquamarine;
-}
