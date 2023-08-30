@@ -7,7 +7,7 @@ function TodoProvider({ children }) {
   //estados de la app
   //Estado actualizador de busqueda
   const [searchValue, setSearchValue] = React.useState("");
-  const [openModal, setOpenModal] = React.useState(true);
+  const [openModal, setOpenModal] = React.useState(false);
   //Estado de Todos
   const {
     item: todos,

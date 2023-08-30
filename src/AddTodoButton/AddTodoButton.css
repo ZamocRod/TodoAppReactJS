@@ -1,8 +1,20 @@
-button{
+.CreateTodoButton{
     background-color: blueviolet;
     border-radius: 4px;
     padding: 8px;
-    border: none;
+    border: solid;
+    border-left-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+    border-top: 0px;
+    border-color: rgb(34, 5, 61);
     color: white;
     justify-self: center;
+}
+.CreateTodoButton:hover{
+    background-color: rgb(68, 18, 116);
+}
+.CreateTodoButton:active{
+    border-bottom-width: 0px;
+    background-color: rgb(180, 101, 253);
 }
