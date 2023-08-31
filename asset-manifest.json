@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/git@github.com:ZamocRod/TodoAppReactJS.git/static/css/main.f42ad3f1.css",
-    "main.js": "/git@github.com:ZamocRod/TodoAppReactJS.git/static/js/main.07ea3a4a.js",
-    "static/media/1bb8e17b.webp": "/git@github.com:ZamocRod/TodoAppReactJS.git/static/media/f38f5f424b5da98e692b8e37ab069b291bb8e17b.377205d0fff358424218.webp",
-    "static/media/DeleteIcon.svg": "/git@github.com:ZamocRod/TodoAppReactJS.git/static/media/DeleteIcon.ea296bb8d2bd7318b277d5d25961a43f.svg",
-    "static/media/CheckIcon.svg": "/git@github.com:ZamocRod/TodoAppReactJS.git/static/media/CheckIcon.5e50bd0d44adf1aaa992806a4551611d.svg",
-    "index.html": "/git@github.com:ZamocRod/TodoAppReactJS.git/index.html",
-    "main.f42ad3f1.css.map": "/git@github.com:ZamocRod/TodoAppReactJS.git/static/css/main.f42ad3f1.css.map",
-    "main.07ea3a4a.js.map": "/git@github.com:ZamocRod/TodoAppReactJS.git/static/js/main.07ea3a4a.js.map"
+    "main.css": "./static/css/main.ea5fd456.css",
+    "main.js": "./static/js/main.5b5124e2.js",
+    "static/media/1bb8e17b.webp": "./static/media/f38f5f424b5da98e692b8e37ab069b291bb8e17b.377205d0fff358424218.webp",
+    "static/media/DeleteIcon.svg": "./static/media/DeleteIcon.ea296bb8d2bd7318b277d5d25961a43f.svg",
+    "static/media/CheckIcon.svg": "./static/media/CheckIcon.5e50bd0d44adf1aaa992806a4551611d.svg",
+    "index.html": "./index.html",
+    "main.ea5fd456.css.map": "./static/css/main.ea5fd456.css.map",
+    "main.5b5124e2.js.map": "./static/js/main.5b5124e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.f42ad3f1.css",
-    "static/js/main.07ea3a4a.js"
+    "static/css/main.ea5fd456.css",
+    "static/js/main.5b5124e2.js"
   ]
 }
