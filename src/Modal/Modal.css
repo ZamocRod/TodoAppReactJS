@@ -52,7 +52,12 @@
     padding: 12px;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    height: 70%;
+    align-items: stretch;
+}
+.Modal_Content textarea{
+    font-size: 2rem;
+    height: 100px;
 }
 .Modal_Content_CreateBtn{
     margin-top: 12px;
