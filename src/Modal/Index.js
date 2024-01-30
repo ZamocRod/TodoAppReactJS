@@ -1,10 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./Modal.css";
-import { TodoContext } from "../TodoContext";
 
-function Modal() {
-  const { addTodo, setOpenModal } = React.useContext(TodoContext);
+function Modal({ addTodo, setOpenModal }) {
   const [newTodoValue, setNewTodoValue] = React.useState("");
   const [newTodoDes, setNewTodoDes] = React.useState("");
   const onSubmitTodo = () => {
@@ -18,7 +16,7 @@ function Modal() {
   const onChangeTA = (event) => {
     setNewTodoValue(event.target.value);
   };
-  const onChangeTA2=(event)=>{
+  const onChangeTA2 = (event) => {
     setNewTodoDes(event.target.value);
   };
   return ReactDOM.createPortal(

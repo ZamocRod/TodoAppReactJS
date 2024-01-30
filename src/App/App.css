@@ -1,45 +1,46 @@
-.Background{
-    background-image: url('../Images/f38f5f424b5da98e692b8e37ab069b291bb8e17b.webp');
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
+.Background {
+  background: linear-gradient(
+    252deg,
+    #755cbe 4.02%,
+    #7b5dbe 35.37%,
+    #ae68bf 67.22%,
+    #a14baf 99.56%
+  );
+  width: 100vw;
+  height: 100vh;
 }
-.WindowContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+.WindowContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
-.TodosGeneralContainer{
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    background-color: #d9d9d9dc;
-    backdrop-filter: blur(30px);
-    padding: 40px;
-    width: 45%;
-    height: 70%;
-    border-width: 3px;
-    border-style: solid;
-    border-color: blue;
-    border-right: none;
+.TodosGeneralContainer {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: #d9d9d9dc;
+  backdrop-filter: blur(30px);
+  padding: 40px;
+  width: 45%;
+  height: 70%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: blue;
+  border-right: none;
 }
-.TodoInfo{
-    width: 25%;
-    background-color: #d9d9d9ef;
-    backdrop-filter: blur(30px);
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    padding: 40px;
-    height: 70%;
-    border-width: 3px;
-    border-style: solid;
-    border-color: blue;
-    border-left: none;
-
-
+.TodoInfo {
+  width: 25%;
+  background-color: #d9d9d9ef;
+  backdrop-filter: blur(30px);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 40px;
+  height: 70%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: blue;
+  border-left: none;
 }
