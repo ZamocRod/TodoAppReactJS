@@ -1,4 +1,4 @@
 function EmptyTodos() {
-  return <p>No hay todos que mostrar</p>;
+  return <p>Crea tu primer Todo</p>;
 }
 export { EmptyTodos };
